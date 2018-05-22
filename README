@@ -7,7 +7,10 @@ The function plots training accuracy over each epoch and prints out the test acc
 
 Convolutional Neural Network: 
 
-
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 \b train_and_test_convolutional_network() 
 \b0 This function plots training accuracy over each epoch and prints out the test accuracy. Note that the final version uses normalised images. You can uncomment this under Dataset initialisation function. \
 Also note that I gave my dataset class an extra argument called custom. If custom is false, it only normalises the picture. If it is true, it turns the image into grayscale and then normalises it. If you want to train network on grayscale normalized images, make sure custom is True. Also change input channel of self.conv1 to 1 and make sure to change \
