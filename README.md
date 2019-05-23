@@ -8,8 +8,8 @@ Architecture:
 
 | Layer  | Hyperparameters |
 | ------------- | ------------- |
-| Fully Connected1 | Output channel = 1024.  Followed by Sigmoid | 
-| Fully Connected2 |Output channel = 10.  Followed by Sigmoid | 
+| Fully Connected1 | Output channel = 128.  Followed by RandomizedRelu | 
+| Fully Connected2 |Output channel = 2.  Followed by RandomizedRelu | 
 
 To run the network uncomment train_and_test_ff_network(). 
 
